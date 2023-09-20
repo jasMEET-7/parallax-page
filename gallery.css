@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    position: absolute;
+    top: 5rem;
+    /* transform: translateX(-50%); */
+    font-size: 6rem;
+    color: white;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+section{
+    background-color: rgb(45, 45, 45);
+    color: white;
+    padding: 5rem 0;
+}
+.secHeading{
+    font-size: 3rem;
+    padding: 0 10rem;
+}
+.text{
+    font-size: 1rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.desc{
+    position: absolute;
+    background-color: white;
+    margin: 10%; 
+    padding: 1%;
+    left: 50%;
+    transform: translateX(-50%) translateX(-50%);
+    color: black;
+    font-size: 3.5;
+}
+
+.bg1{
+    background-image: url(football.jpg);
+}
+.bg2{
+    background-image: url(cricket.jpg);
+}
+.bg3{
+    background-image: url(badminton.jpg);
+}

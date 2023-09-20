@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax</title>
+
+    <style>
+
+    h1 {
+      display : flex;
+      /* justify-content : center; */
+      position : absolute;
+      left : 25%;
+      padding : 170px;
+    }
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .container {
+        position: relative;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform-style: preserve-3d;
+        z-index: -1;
+      }
+      .turf {
+        transform: translateZ(-80px) scale(60);
+      }
+
+      h1 {
+        position: absolute;
+        top: 3rem;
+        letter-spacing: 4px;
+        font-size: 7rem;
+        color: white;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        margin: 0;
+      }
+
+      section {
+        background: rgb(45, 45, 45);
+        color: #fff;
+        padding: 5rem 0px;
+      }
+
+      .secHeading {
+        font-size: 5rem;
+        padding: 0px 10rem;
+      }
+
+      .text {
+        font-size: 1.25rem;
+        padding: 0 8rem;
+        margin: 5rem 0;
+        /* background: rgb(45, 45, 45); */
+      }
+
+      .bg1 {
+        background-image: url(football.jpg);
+      }
+
+      .bg2 {
+        background-image: url(cricket.jpg);
+      }
+
+      .bg3 {
+        background-image: url(badminton.jpg);
+      }
+
+      .bg4 {
+        background-image: url(martialart.jpg);
+      }
+
+      .bg {
+        position: relative;
+        background-attachment: fixed;
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .desc {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.5rem 2.5rem;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        border: 2px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+      
+        <img src="turf.jpg"  class name = "turf" alt ="sports" width = "1600" height = "600"></img>
+        <h1>SPORTS</h1>
+      </div>
+      <section>
+        <h2 class="secHeading">Exploring Sports</h2>
+        <p class = "text">
+          Sports are the heartbeat of human competition, where determination, skill, and passion converge. 
+          From the roar of the crowd to the sweat on an athlete's brow, sports offer a canvas for dreams to flourish and champions to emerge.
+          whether it's the grace of a figure skater, the power of a soccer striker, or the strategy of a chess grandmaster, each sport paints
+          a unique tapestry of moments that inspire, entertain, and unite us. Sports transcend language and borders, forging connections that bridge divides and celebrate the extraordinary 
+          in the ordinary. They remind us that in the arena of life, victory and defeat are mere chapters in a story of resilience, teamwork, and the enduring pursuit of excellence.  
+        </p>
+
+        <div class="bg bg1">
+          <h2 class="desc">FOOTBALL</h2>
+        </div>
+        <p class="text">
+          Football, the world's most beloved sport, transcends borders and cultures, captivating hearts and minds with its simplicity and grace.
+          Played on a lush green field, it's a battle of strategy and skill, where two teams of 11 players each aim to score by getting the ball into the opponent's net.
+          The magic unfolds in 90 intense minutes, split into two halves, where players use their feet, heads, and chests to maneuver the ball.
+          Only the goalkeeper can use their hands within the penalty area.
+          <br></br>
+          Fouls and free-kicks add drama, penalties create heart-pounding moments, and offside rules test precision. 
+          From neighborhood matches to grand stadiums, football's allure is universal. The FIFA World Cup, held every four years, is the pinnacle of this beautiful game, uniting nations in a display of talent and passion. 
+          Legends like Pelé, Maradona, Ronaldo, and Messi have left an indelible mark, inspiring generations. Beyond the sport, football builds bridges, fostering camaraderie and a sense of belonging that resonates across the globe.
+        </p>
+
+        <div class="bg bg2">
+          <h2 class="desc">CRICKET</h2>
+        </div>
+        <p class="text">
+          Cricket, a bat-and-ball sport, is a beloved pastime and a cultural phenomenon in many countries, especially in India, England, Australia, and the West Indies. 
+          Played between two teams of 11 players each, the objective is simple: score runs by hitting a ball and defending wickets. The bowler aims to dismiss 
+          the batsmen while the batsmen try to accumulate runs through various shots.
+          <br></br>
+          Cricket offers different formats, including Test matches, One Day Internationals (ODIs), and Twenty20 (T20) matches, each with varying rules and durations. 
+          Test matches are known for their endurance, lasting up to five days, while T20 matches are fast-paced and usually completed in around three hours.
+          The sport has iconic events like the Cricket World Cup and The Ashes, and legendary players such as Sachin Tendulkar, Sir Don Bradman, and Sir Vivian Richards
+          have left indelible marks on its history. Cricket's popularity extends beyond the field, often representing national pride and serving as a powerful cultural symbol.    
+      
+        </p>
+
+        <div class="bg bg3">
+          <h2 class="desc">BADMINTON</h2>
+        </div>
+        <p class="text">
+          Badminton is a fast-paced racquet sport played both recreationally and competitively around the world. 
+          It's typically played indoors but can also be enjoyed outdoors in more casual settings. The game involves two or four players who use a shuttlecock,
+          a feathered or plastic projectile, to score points by sending it over the net and into their opponent's side of the court.
+          <br></br>
+          The objective is to make the shuttlecock land in the opponent's court, either by hitting it over the net or forcing them to make an error. 
+          Badminton demands agility, quick reflexes, and excellent hand-eye coordination. It's a sport that can be enjoyed by players of all ages and skill levels, 
+          making it a popular choice for family gatherings and recreational outings. However, at the elite level, badminton is a highly competitive sport with fast rallies, powerful smashes,
+          and strategic play, making it an exciting spectator sport as well.
+        </p>
+
+        <div class="bg bg4">
+          <h2 class="desc">MARTIAL ART</h2>
+        </div>
+        <p class="text">
+          Martial arts encompass a diverse range of combat practices and disciplines that have origins in various cultures around the world.
+          They emphasize physical fitness, self-discipline, and mental focus. While some martial arts, like karate and judo, originated in Japan, others like kung fu hail from China, 
+          and Brazilian jiu-jitsu has its roots in Brazil. Each martial art has its unique techniques, philosophies, and training methods.
+          Practitioners of martial arts, known as martial artists, undergo rigorous training to master strikes, kicks, throws, and grappling techniques.
+          They often adhere to a code of ethics that promotes respect, humility, and self-control. Many people practice martial arts for self-defense, physical fitness, and personal development.
+          <br></br>
+          Competitive martial arts, such as MMA (Mixed Martial Arts) and Olympic Taekwondo, have gained popularity as spectator sports. 
+          These events showcase the skills and athleticism of martial artists in a controlled, regulated environment. Beyond sport and self-defense, martial arts offer a path to personal growth,
+          building character, and fostering a sense of community among its practitioners.
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
